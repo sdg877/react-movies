@@ -9,9 +9,9 @@ export default function MoviesListPage({movies}) {
         console.log(e.target)
     }
     return(
-        <div>
-        <h1>Movie List Page</h1>
         <div className='moviesListPage'>
+        <h1>Movie List Page</h1>
+        <div>
         {movies.map((movie) => {
             return(
             <Link onClick={handleClick} to={`/movies/${movie.title}`} key={movie.id} >

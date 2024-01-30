@@ -16,7 +16,7 @@ export default function ActorsListPage({ movies }) {
     }
 
     return(
-        <div>
+        <div className="actorCard">
             <h1>Actor List Page</h1>
             <div>{showActorCard()}</div>
         </div>

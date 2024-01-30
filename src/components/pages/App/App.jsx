@@ -8,6 +8,7 @@ import NavBar from '../../NavBar/NavBar.jsx';
 import ActorListPage from '../ActorListPage/ActorListpage.jsx';
 import ActorDetailPage from '../ActorDetailPage/ActorDetailPage.jsx';
 import { movies } from '../../../data.js'
+
 export default function App() {
   const [user, setUser] = useState(null)
   return (
@@ -25,7 +26,6 @@ export default function App() {
         :
         <LoginPage setUser={setUser}/>
       }
-      {/* {user} */}
     </main>
   );
 }

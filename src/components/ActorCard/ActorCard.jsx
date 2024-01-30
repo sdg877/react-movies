@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+
 export default function ActorCard({ actor }) {
     return (
         <div className="actor-card" >
